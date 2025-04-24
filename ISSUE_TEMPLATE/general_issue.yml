@@ -1,0 +1,37 @@
+name: 📝 General Issue
+description: Create a general issue for tasks, bugs, or feature work
+title: "[Issue] "
+labels: []
+assignees: []
+body:
+  - type: textarea
+    id: description
+    attributes:
+      label: 📝 Description
+      description: What’s the issue? Describe clearly and concisely.
+      placeholder: Describe the issue...
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: acceptance
+    attributes:
+      label: ✅ Acceptance Criteria
+      description: What needs to be true for this issue to be considered complete?
+      options:
+        - label: First requirement
+        - label: Second requirement
+        - label: Third requirement
+
+  - type: textarea
+    id: related
+    attributes:
+      label: 🔗 Related
+      description: Link to related issues, PRs, or discussions
+      placeholder: e.g. #12, #bugfix-branch
+
+  - type: textarea
+    id: context
+    attributes:
+      label: 🧠 Additional Context
+      description: Any other info that could help resolve the issue
