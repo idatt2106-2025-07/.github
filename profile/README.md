@@ -17,7 +17,7 @@ This project has two seperate repositories, one for frontend, and one for backen
 - [Johan M. Arntsen](https://github.com/johamar)
 - [Marcus Westum](https://github.com/MarcusWestum)
 - [Stasys Mockus](https://github.com/stan1sm)
-- [Sverre G. Halvorsen](https://github.com/sverrgha)
+- [Sverre G. Halvorsen](https://github.com/SverreHalvorsen)
 - [Vetle T. Bjørnøy](https://github.com/Vetletb)
 
 ## More information
